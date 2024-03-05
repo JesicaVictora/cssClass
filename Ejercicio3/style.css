@@ -1,0 +1,66 @@
+@media (max-width: 400px){
+    body{
+        background-image: url("assets/background.jpg");
+        background-repeat: no-repeat;
+        background-color: #05293C;
+        background-size: cover; 
+        margin: 0;
+        display: flex;
+        align-items: flex-end;
+        height: 100vh;
+    }
+   
+  
+ }
+
+ @media (max-width: 1300px){
+    body{
+        /*background-image: url("assets/background.jpg");*/
+        background-repeat: no-repeat;
+        background-color: #05293C;
+        background-size: cover; 
+        margin: 0;
+        display: flex;
+        align-items: flex-end;
+        height: 100vh;
+    }
+   
+  
+ }
+
+
+#login_container{
+
+    background-color: #05293C;
+    width: 100%;
+    height: 40vh;
+    border-radius: 30% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 0;
+    border: none;
+    width: 295px;
+    height: 60px;
+    background-color: #E85C4B;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: large;
+    margin: 1vh;
+}
+
+#create_button{
+
+    background-color: #09354B;
+}
+
+p{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+
+}
